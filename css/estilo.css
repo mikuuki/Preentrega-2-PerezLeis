@@ -12,6 +12,12 @@ header {
 
 }
 
+
+
+/* FUENTE */
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .fuentes {
     font-size: 20px;
     padding: 2rem;
@@ -60,10 +66,47 @@ header {
 
 
 /* CAROUSEL */
-
 .carouselComponente {
     background-color: black;
 }
 
 
 /* no puedo acomodar la imagen */
+
+
+
+
+
+/* CATEGORIA */
+
+.generosContenedor {
+    display: grid;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+/* CONTACTO */
+
+.formularioContacto {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin: 40px;
+    align-items: center;
+        
+}
+
+p a {
+    color: black;
+    
+}
